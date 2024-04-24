@@ -29,7 +29,7 @@ Now on to the overarching questions and topics.
 
 Purpose of Website:
 What is the purpose and goal of the website?
-- To maintain information pertaining to the Sandy River and Rangeley Lakes Railroad, as well as generally promote it.
+- To maintain information pertaining to the Sandy River and Rangeley Lakes Railroad, as well as general promotion of it.
 
 Target Audience:
 Describe the target audience (age, gender, demographics)
