@@ -19,56 +19,85 @@ ul {
     overflow: hidden;
 }
 
-li {
-    background-color: white;
-    float: left;
-    padding: 16px;
-    transition: 0.5s;
+.navbar {
+    display: flex;
+    width: auto;
+    background-color: #ffcc33;
+    position: absolute;
+    align-content: center;
+    box-shadow: 8px 8px 16px 0px rgba(0,0,0,0.5);
 }
-
-li:hover {
-    cursor: pointer;
-    background-color: darkgray;
-    transition: 0.5s;
-}
-
 .navbutton {
-  background-color: white;
-  color: black;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
+    width: 80px;
+    background-color: #ffcc33;
+    color: #990000;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    display: block;
+    text-align: center;
 }
 
 .about-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+    display: none;
+    position: absolute;
+    align-content: center;
+    left: 75%;
+    top: 100%;
+    box-shadow: 8px 8px 16px 0px rgba(0,0,0,0.5);
 }
-
 .about-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
+    color: #990000;
+    padding: 12px 16px;
+    text-decoration: none;
     display: block;
+    transition: all 1s ease;
+}
+.about-content a:hover {
+    width: 125%;
+    background-color: #ffbb33;
+    color: #000000;
 }
 
-.dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+#about:hover + .about-content {
+    display: block;
+    position: absolute;
+    align-content: center;
+}
+#about:focus + .about-content {
+    display: block;
+    position: absolute;
+    align-content: center;
+}
+
+.shop-content {
+    display: none;
+    position: absolute;
+    align-content: center;
+    left: 50%;
+    top: 100%;
+    box-shadow: 8px 8px 16px 0px rgba(0,0,0,0.5);
+    z-index: 1;
+}
+.shop-content a {
+    color: #990000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: all 1s ease;
+}
+.shop-content a:hover {
+    width: 125%;
+    background-color: #ffbb33;
+    color: #000000;
+}
+#shop:hover + .shop-content {
+    display: block;
+    position: absolute;
+    align-content: center;
+}
+#shop:focus + .shop-content {
+    display: block;
+    position: absolute;
+    align-content: center;
 }
