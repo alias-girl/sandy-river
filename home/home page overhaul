@@ -1,0 +1,7 @@
+I still don't know how to use GitHub.
+
+Complete overhaul of the home page. 
+Still a pretty barebones WIP, but 
+1. the nav bar is functional and is separated from the main CSS page, 
+2. the spacing between and within the elements now utilizes the font size (em), 
+3. and finally, the <main> and <footer> elements are now implemented and ready.
