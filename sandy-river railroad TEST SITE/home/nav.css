@@ -1,0 +1,45 @@
+nav {
+	display: flex;
+	height: 3em;
+	width: 32em;
+	position: relative;
+	text-align: center;
+	z-index: 10;
+}
+
+nav a {
+	align-content: center;
+	background-color: #ffcc33;
+	color: #930d0d;
+	display: block;
+	text-decoration: none;
+	width: 25%;
+}
+
+#about-button {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+.about {
+	align-content: center;
+	background-color: #ffcc33;
+	width: 25%;
+}
+
+.about-content {
+	display: none;
+	width: 100%;
+}
+
+.about-content a {
+	align-content: center;
+	background-color: #ffcc33;
+	height: 100%;
+	width: 100%;
+}
+
+.about:hover .about-content {
+	display: block;
+}
