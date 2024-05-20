@@ -1,0 +1,59 @@
+html {
+	display: flex;
+	flex-wrap: nowrap;
+    background-image: url("../imgs/home/srrl_old_footage.gif");
+    background-size: 100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+#logo {
+	display: block;
+	margin-bottom: 24pt;
+	width: 750pt;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+}
+
+main {
+	background-color: beige;
+	border-color: black;
+	border-radius: 24pt;
+	border-style: solid;
+	display: block;
+	left: 12pt;
+	margin-top: 24pt;
+	position: relative;
+	width: 750pt;
+	height: auto;
+}
+
+#maintext {
+	display: block;
+	margin: 16pt;
+	position: relative;
+}
+
+footer {
+	background-color: beige;
+	border-color: black;
+	border-radius: 24pt;
+	border-style: solid;
+	display: block;
+	left: 12pt;
+	margin-top: 24pt;
+	position: relative;
+	width: 750pt;
+	height: auto;
+}
+
+#footerstuff {
+	display: block;
+	margin: 16pt;
+	position: relative;
+}
