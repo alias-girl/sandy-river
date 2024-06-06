@@ -1,8 +1,10 @@
 nav {
+	box-shadow: .5em .5em .5em black;
 	display: flex;
 	height: 3em;
-	width: 32em;
+	width: 36em;
 	position: relative;
+	left: 10%;
 	text-align: center;
 	z-index: 10;
 }
@@ -12,8 +14,27 @@ nav a {
 	background-color: #ffcc33;
 	color: #930d0d;
 	display: block;
+	position: relative;
 	text-decoration: none;
 	width: 25%;
+}
+
+nav a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom center;
+  transition: transform 0.5s ease;
+}
+
+nav a:hover::after {
+  transform: scaleX(1);
+  transform-origin: top center;
 }
 
 #about-button {
@@ -42,4 +63,19 @@ nav a {
 
 .about:hover .about-content {
 	display: block;
+	box-shadow: .5em .5em .5em black;
+	animation: underLine 0.5s ease;
+	transform-origin: top center;
+}
+
+@keyframes underLine {
+    0% {
+        transform: scaleY(0)
+    }
+    80% {
+        transform: scaleY(1)
+    }
+    100% {
+        transform: scaleY(1)
+    }
 }
