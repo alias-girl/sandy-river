@@ -11,8 +11,8 @@ html {
 
 #logo {
 	display: block;
-	margin-bottom: 24pt;
-	width: 750pt;
+	width: 50%;
+	height: auto;
 }
 
 body {
@@ -27,7 +27,7 @@ main {
 	border-style: solid;
 	display: block;
 	left: 12pt;
-	margin-top: 24pt;
+	margin: 24pt;
 	position: relative;
 	width: 750pt;
 	height: auto;
@@ -46,10 +46,11 @@ footer {
 	border-style: solid;
 	display: block;
 	left: 12pt;
-	margin-top: 24pt;
+	margin: 24pt;
 	position: relative;
-	width: 750pt;
+	width: 500pt;
 	height: auto;
+	font-size: 75%;
 }
 
 #footerstuff {
