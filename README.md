@@ -4,10 +4,17 @@ This document pertains to the Sandy River and Rangeley Lakes Railroad website an
 https://ww.srrl-rr.org/
 
 ## Names of Team Members:
-1. Sarah M (Website)
-2. Riley (Drone Flyer, General Floater)
-3. Bill Pooler (Teacher and Overseer)
-4. Guy (Client)
+1. Bill - Overseer
+2. Sarah - General Management
+3. Riley - Drone Flying, Floater
+4. Darion - Webdev (Still Deciding)
+5. Gideon - Webdev
+6. Tyler - ???
+7. Max - Photography
+8. Isis - Graphic Design, Possibly Webdev
+9. Evan - (Still Deciding)
+10. Shayne - Coding
+11. Nick - Photography/Drone Flying
 
 Exchange contact information and determine that best days and time(s) of the week to meet.
 
