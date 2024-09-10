@@ -6,10 +6,8 @@ https://ww.srrl-rr.org/
 ## Names of Team Members:
 1. Sarah M (Website)
 2. Riley (Drone Flyer, General Floater)
-3. Adam (Hardware)
-4. Daeson (Website)
-5. Bill Pooler (Teacher and Overseer)
-6. Guy (Client)
+3. Bill Pooler (Teacher and Overseer)
+4. Guy (Client)
 
 Exchange contact information and determine that best days and time(s) of the week to meet.
 
