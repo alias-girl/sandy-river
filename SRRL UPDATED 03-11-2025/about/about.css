@@ -1,0 +1,162 @@
+/*
+Designer(s):
+- Sarah M
+
+Last Edit:
+01/27/2025
+*/
+
+/* HTML RESET */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { 
+    margin: 0;
+    padding: 0;
+}
+
+html {
+	display: block;
+	flex-wrap: nowrap;
+	height: 100%;
+	width: 100%;
+}
+
+#logo {
+	display: block;
+	width: 50%;
+	height: auto;
+	position: relative;
+	animation: logoSlide cubic-bezier(.77,0,.18,1) 0.75s;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	display: block;
+	overflow-x: hidden;
+}
+
+#message {
+	background-color: beige;
+	border-color: black;
+	border-radius: 10pt;
+	border-style: solid;
+	height: fit-content;
+	left: 77%;
+	top: 0;
+	padding: 12pt;
+	position: absolute;
+	text-align: center;
+	width: 300pt;
+	z-index: 2;
+	animation: messageSlide cubic-bezier(.77,0,.18,1) .75s;
+}
+
+#sidestuff {
+	background-color: beige;
+	border-color: black;
+	border-radius: 10pt;
+	border-style: solid;
+	height: 500px;
+	left: 65%;
+	position: absolute;
+	text-align: center;
+	width: 500px;
+	top: 64pt;
+	animation: sideboxSlide cubic-bezier(.77,0,.18,1) 1s;
+}
+
+#calendar {
+	background-color: beige;
+	border: black 4px solid;
+	border-radius: 8pt;
+	height: 500px;
+	left: 0;
+	position: absolute;
+	text-align: center;
+	width: 500px;
+	animation: calander cubic-bezier(.77,0,.18,1) 1s;
+}
+
+main {
+	display: block;
+	box-sizing: border-box;
+	background-color: beige;
+	border: black 4px solid;
+	border-radius: 10pt;
+	margin: 24pt;
+	position: relative;
+	width: 75%;
+	height: auto;
+	animation: pageOpen cubic-bezier(.77,0,.18,1) 1.25s;
+}
+
+main #main-nav {
+	box-sizing: content-box;
+	height: 3em;
+	display: flex;
+	position: relative;
+	margin: 1.5em;
+}
+
+.childnav {
+	width: fit-content;
+	margin: .5em;
+	text-align: left;
+}
+
+.childnav a {
+	color: black;
+}
+
+.childnav:hover {
+	cursor: pointer;
+}
+
+.maintext {
+	display: block;
+	margin: 1.5em;
+	position: relative;
+}
+
+footer {
+	background-color: beige;
+	border: black 4px solid;
+	border-radius: 10pt;
+	display: block;
+	margin: 24pt;
+	position: relative;
+	width: 75%;
+	height: 42pt;
+	font-size: 75%;
+	animation: pageOpen cubic-bezier(.77,0,.18,1) 1.5s;
+}
+
+.footerstuff {
+	display: block;
+	margin: 16pt;
+	position: relative;
+}
+
+@keyframes pageOpen {
+	from {right: 15%; opacity: 0;}
+	to {right: 0%; opacity: 1;}
+}
+
+@keyframes sideboxSlide {
+	0% {left: 100%; opacity: 0;}
+	100% {left: 65%; opacity: 1;}
+}
+
+@keyframes calander {
+	from {top: 0; opacity: 0;}
+	to {top: 0; opacity: 1;}
+}
+
+@keyframes logoSlide {
+	from {right: 25%; opacity: 0;}
+	to {right: 0; opacity: 1;}
+}
+
+@keyframes messageSlide {
+	from {left: 100%; opacity: 0;}
+	to {left: 77%; opacity: 1;}
+}
