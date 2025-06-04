@@ -4,7 +4,7 @@
 This document pertains to the Sandy River and Rangeley Lakes Railroad website and it's revisional development.
 ### https://www.srrl-rr.org/
 
-# If you're afraid of the complexity of this page but would still like to view the current state of the website but don't know how, please click this link [here]().
+# If you're afraid of the complexity of this page but would still like to view the current state of the website but don't know how, please click this link [here](https://github.com/alias-girl/sandy-river/blob/main/progress.md).
 It is a detailed and comprehensive tutorial on how to download and run the website in your own browser.
 
 There are 3 main sections of this README. They are:
