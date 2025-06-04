@@ -64,6 +64,7 @@ There are 3 main sections of this README. They are:
 * Attach W3C-Compliant alternate text to all images on the entire website for screenreaders
 * While we're at it, just try not to make the website impossible to use for people with impairments or disabilities.
 * I'd rather not continue being the "owner" of the GitHub Repository, so at some point the future Project Manager should get in contact with me so I can transfer ownership to them (I don't actually know if this is even possible, but we'll figure it out when we get there).
+* Speaking of the GitHub, there are absolutely no images whatsoever for the tutorial documentation. Maybe I should get to that.
 * Optional: See if you can figure out a better way to do the sub-pages than I did.
 
 ## SRRL Task List:
