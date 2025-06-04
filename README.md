@@ -89,6 +89,3 @@ There are 3 main sections of this README. They are:
 * Contact Us
 
 If you'd like for any of this to be moved, changed, or removed from the navigation, then please let us know as soon as possible.
-
-If you would like to see the current state of the site yourself, I've updated the SRRL GitHub with the most recent version of the webpage, making sure to provide relevant information on the current build and how things work, and have formatted the GitHub to be more understandable and user-friendly, as well as attached thorough instructions on how to view the webpage for yourself on the front page readme.
-You can find said GitHub at this URL: https://github.com/alias-girl/sandy-river
