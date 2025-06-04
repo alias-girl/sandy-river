@@ -70,23 +70,22 @@ There are 3 main sections of this README. They are:
 ## SRRL Task List:
 * Gather all SRRL accounts and their information and send them back in a list. It would probably be in your best interest to delete the sent email after about a month, at the very most.
 * Collect all relevant and up-to-date information on each of the page subjects and relay it to the Region 9 developers in a concise and formatted order, preferably in order of webpage navigation from left to right.
-
-* Home
-* Schedule
-* Shop
-* Volunteering
-* About Us
-  * About Us (Main)
-  * Mission
-  * History
-  * Community
-  * Roster
-  * Membership
-  * Donations
-* Visit Us
-  * Visit Us (Main)
-  * Phillips Historical Society
-  * Local Resources
-* Contact Us
+ * Home
+ * Schedule
+ * Shop
+ * Volunteering
+ * About Us
+   * About Us (Main)
+   * Mission
+   * History
+   * Community
+   * Roster
+   * Membership
+   * Donations
+ * Visit Us
+   * Visit Us (Main)
+   * Phillips Historical Society
+   * Local Resources
+ * Contact Us
 
 If you'd like for any of this to be moved, changed, or removed from the navigation, then please let us know as soon as possible.
